@@ -281,9 +281,6 @@ void MainWindow::on_pushButton_3_clicked() {
     Msgbox.exec();
 }
 
-void MainWindow::on_lineEditD_2_textChanged(const QString &arg1) {
-    delay = ui->lineEditDelay->text().toInt();
-}
 
 void MainWindow::on_checkBoxAutostop_checkStateChanged(const Qt::CheckState &arg1)
 {
@@ -293,5 +290,11 @@ void MainWindow::on_checkBoxAutostop_checkStateChanged(const Qt::CheckState &arg
         autoStop = false;
     }
     ui->lineEditDelay->setEnabled(autoStop);
+}
+
+
+void MainWindow::on_lineEditDelay_textChanged(const QString &arg1)
+{
+    delay = ui->lineEditDelay->text().toInt();
 }
 

@@ -269,7 +269,7 @@ will be held down to ensure
    </property>
    <widget class="QMenu" name="menuOpenSnap_Settings">
     <property name="title">
-     <string>OpenSnap v.0.0.1</string>
+     <string>OpenSnap v.0.0.2</string>
     </property>
     <addaction name="actionQuit"/>
    </widget>

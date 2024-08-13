@@ -29,9 +29,9 @@ private slots:
 
     void on_pushButton_3_clicked();
 
-    void on_lineEditD_2_textChanged(const QString &arg1);
-
     void on_checkBoxAutostop_checkStateChanged(const Qt::CheckState &arg1);
+
+    void on_lineEditDelay_textChanged(const QString &arg1);
 
 private:
     static LRESULT CALLBACK LowLevelKeyboardProc(int nCode, WPARAM wParam, LPARAM lParam);
